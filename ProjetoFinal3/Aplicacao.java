@@ -6,9 +6,9 @@ public class Aplicacao {
         ClientePessoaJuridica clientePJ = new ClientePessoaJuridica("Alice SA");
 
         // Carros
-        CarroPequeno carroP_ABC1234 = new CarroPequeno();
-        CarroMédio carroM_ABB1111 = new CarroMédio();
-        CarroSUV carroSUV_BAA2234 = new CarroSUV();
+        Veiculo carroP_ABC1234 = new CarroPequeno();
+        Veiculo carroM_ABB1111 = new CarroMédio();
+        Veiculo carroSUV_BAA2234 = new CarroSUV();
 
         // Aluguéis PF
         Aluguel aluguelPF01 = new Aluguel(carroP_ABC1234, clientePF, 2);
